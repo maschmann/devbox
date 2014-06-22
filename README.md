@@ -28,7 +28,11 @@ to all puppeteers: in my case, stages made the most sense. if you have better id
 3) configuration
 ----------------
 
-all authorized_key files are empty: fill with your own keys, please.
+all authorized_key files are empty: fill with your own keys, please. But remember to leave the vagrant default keys in there!
+
+    puppet/modules/users/files/authorized_keys
+    puppet/mobules/system_pre/files/authorized_keys
+
 keep in mind to change the .gitconf file in users module, to remove my name and email address.
 phpmyadmin and MariaDB have a root access (root:vagrant).
 by default the nginx conf provides a /phpmyadmin route.

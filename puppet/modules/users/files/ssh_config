@@ -1,0 +1,6 @@
+# general ###
+ForwardAgent yes
+
+# specific ###
+#Host yourhost.de
+#    User yourname
